@@ -1,0 +1,33 @@
+{
+  "name": "ih-log",
+  "version": "1.0.0",
+  "description": "Influence Health common log module",
+  "main": "./lib/index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medseek-engineering/ih-log.git"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "author": "Influence Health, Inc.",
+  "contributors": [
+    {
+      "name": "Nathan Cooke",
+      "url": "http://github.com/3choboomer"
+    },
+    {
+      "name": "Nathan Stott",
+      "url": "https://github.com/nrstott"
+    }
+  ],
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "winston": "~2.3.0",
+    "winston-logio" : "^0.2.0"
+  }
+}
